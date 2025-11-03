@@ -1,7 +1,7 @@
 {
   "name": "gnome-portal",
   "version": "1.0.0",
-  "description": "Gnome Portal - Node.js Backend + React Frontend",
+  "description": "GOEM Portal - Node.js Backend + React Frontend",
   "scripts": {
     "install-backend": "cd backend && npm install",
     "install-frontend": "cd frontend && npm install",
@@ -11,17 +11,12 @@
     "start": "npm run start-backend",
     "build": "npm run install-all && npm run build-frontend",
     "dev-backend": "cd backend && npm run dev",
-    "dev-frontend": "cd frontend && npm start",
-    "dev": "concurrently \"npm run dev-backend\" \"npm run dev-frontend\""
+    "dev-frontend": "cd frontend && npm start"
   },
   "keywords": ["nodejs", "react", "sql-server", "express"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "msnodesqlv8": "^5.1.1",
     "mssql": "^12.0.0"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.0"
   }
 }
